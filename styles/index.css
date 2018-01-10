@@ -1,0 +1,26 @@
+.topnav {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  display: block;
+}
+.topnav a {
+  float: left;
+  list-style-type: none;
+  padding: 15px 10px;
+  background-color: #f1f1f1;
+}
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+
+.picture-1 {
+    width: 1278 px;                                                                                                               px; /* you can use % */
+    height: auto;
+
+footer a {
+  text-align: center;
+}
