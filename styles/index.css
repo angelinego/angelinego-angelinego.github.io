@@ -17,10 +17,18 @@
   border-bottom: 3px solid red;
 }
 
-.picture-1 {
-    width: 1278 px;                                                                                                               px; /* you can use % */
-    height: auto;
+body {
+  background: url(../images/cosmetics.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
-footer a {
+footer {
   text-align: center;
+}
+
+.fo-instagram {
+  font-size: 40px;
 }
