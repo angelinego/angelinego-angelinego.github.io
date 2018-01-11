@@ -76,7 +76,7 @@ h1 {
 }
 
 .contact-content {
-  font-family:"Open Sans", Helvetica, Arial, sans-serif;
+  font-family:"Nexa;
 	font-weight:300;
 	font-size: 12px;
 	line-height:30px;
@@ -93,16 +93,6 @@ h1 {
   flex-direction: column;
 }
 
-.container-contact {
-  max-width:400px;
-	width:100%;
-	margin: 0 auto;
-	position:relative;
-}
-
-.topnav {
-  padding-right: 10px;
-}
 
 #contact {
 	background:#F9F9F9;
