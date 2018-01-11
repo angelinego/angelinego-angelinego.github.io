@@ -16,6 +16,7 @@
   text-transform: uppercase;
   font-size: 14px;
   color: black;
+
 }
 
 .topnav a:link {
@@ -68,6 +69,7 @@ body {
 
 .content {
   flex: 1;
+  margin: 30px 0;
 }
 
 .container {
@@ -78,13 +80,15 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  text-align: center;
+  padding: 10px 20px 10px;
 }
 
 #contact {
   font-family: "Playfair Display", serif;
   background: #F9F9F9;
   padding: 25px;
-  margin: 50px 0;
+  margin: 20px 0;
 }
 
 #contact h3 {
