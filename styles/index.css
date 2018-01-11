@@ -42,13 +42,6 @@ body {
   background-size: cover;
 }
 
-h1, h2, h3 {
-  font-family: "Playfair Display", serif;
-  font-weight: normal;
-  font-size: 3rem;
-  margin: .67em;
-}
-
 .leftPanel-body {
   font-size: 1.5em;
   margin: .67em;
@@ -77,18 +70,6 @@ h1, h2, h3 {
   flex: 1;
 }
 
-<<<<<<< HEAD
-
-=======
-.contact-content {
-  font-family: "Nexa;
- font-weight:300;
-  font-size: 12px;
-  line-height: 30px;
-  color: #777;
-}
->>>>>>> 765fb3f970a83d961e4542e24f96966ea007d60b
-
 .container {
   max-width: 400px;
   width: 100%;
@@ -100,6 +81,7 @@ h1, h2, h3 {
 }
 
 #contact {
+  font-family: "Playfair Display", serif;
   background: #F9F9F9;
   padding: 25px;
   margin: 50px 0;
