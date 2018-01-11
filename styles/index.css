@@ -1,10 +1,12 @@
 .topnav {
   margin-left: 2vw;
-  padding: 20px 10px 7px;
+  padding: 20px 20px 20px;
   border-radius: 30px;
   border: 2px solid transparent;
   white-space: nowrap;
-  letter-spacing: 3em
+  letter-spacing: 3em;
+  text-align: right;
+  background-color: white;
 }
 
 .topnav a {
@@ -12,11 +14,25 @@
   font-weight: 700;
   letter-spacing: .2em;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
+  color:black;
+
+}
+
+.topnav a:link {
+    text-decoration: none;
+}
+
+.topnav a:visited {
+    text-decoration: none;
 }
 
 .topnav a:hover {
   border-bottom: 3px solid red;
+}
+
+.topnav a:active {
+    text-decoration: underline;
 }
 
 body {
@@ -43,6 +59,15 @@ h1 {
   font-family: miller-banner,serif;
   font-weight: 400;
 }
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+
 
 footer {
     font-family: Nexa;
