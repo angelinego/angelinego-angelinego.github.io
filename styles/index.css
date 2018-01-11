@@ -75,13 +75,7 @@ h1 {
   flex: 1;
 }
 
-.contact-content {
-  font-family:"Nexa;
-	font-weight:300;
-	font-size: 12px;
-	line-height:30px;
-	color:#777;
-}
+
 
 .container {
   max-width: 400px;
