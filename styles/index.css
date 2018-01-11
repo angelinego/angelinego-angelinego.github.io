@@ -66,9 +66,6 @@ h1 {
   text-transform: uppercase;
   letter-spacing: .15em;
   font-size: 13px;
-  position: absolute;
-  bottom: 0;
-  left: 30%;
 }
 
 .footer-default p {
