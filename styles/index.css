@@ -74,3 +74,10 @@ h1 {
 .footer-default p {
   text-align: center;
 }
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
