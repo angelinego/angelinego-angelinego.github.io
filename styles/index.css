@@ -15,16 +15,15 @@
   letter-spacing: .2em;
   text-transform: uppercase;
   font-size: 14px;
-  color:black;
-
+  color: black;
 }
 
 .topnav a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .topnav a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .topnav a:hover {
@@ -32,7 +31,7 @@
 }
 
 .topnav a:active {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 body {
@@ -56,7 +55,7 @@ h1 {
 }
 
 .title {
-  font-family: miller-banner,serif;
+  font-family: miller-banner, serif;
   font-weight: 400;
 }
 
@@ -73,25 +72,15 @@ h1 {
 }
 
 .container {
-	max-width:400px;
-	width:100%;
-	margin:0 auto;
-	position:relative;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-#contact {
-	background:#F9F9F9;
-	padding:25px;
-	margin:50px 0;
-}
-#contact h3 {
-	color: #F96;
-	display: block;
-	font-size: 30px;
-	font-weight: 400;
-}
-#contact h4 {
-	margin:5px 0 15px;
-	display:block;
-	font-size:13px;
+.content {
+  flex: 1;
 }
